@@ -7,6 +7,10 @@ Un agradecimiento especial a Stefan Topalovic y Tonmoy Deb, cuyas plantillas de 
 - En vivo: https://alexander-cuellar-dev.netlify.app/
 - Desarrollador: https://linkedin.com/in//alexander-cuellar-9b700b163
 
+## Plantilla original
+
+- introy: https://github.com/tonmoydeb404/introy
+
 ## Uso de la Plantilla
 
 Si deseas utilizar esta plantilla para tu propio portafolio, siéntete libre de hacerlo. Solo asegúrate de personalizarla y añadir tu propio toque único.
