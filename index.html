@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexander Cuellar</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+  <link rel="icon" href="icon.svg">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./style/style.css" />
+  <!-- custom js -->
+  <script type="module" defer src="./scripts/app.js"></script>
+</head>
+
+<body class="bg-[#f2f3f35e]">
+  <!-- navbar start -->
+  <nav class="navbar bg-[#f2f3f3ea]">
+    <div class="container">
+      <a href="/" class="navbar_brand"></a>
+      <button title="Open Menu" type="button" class="navbar_toggler" id="menuToggler">
+        <i class="bi bi-list"></i>
+      </button>
+      <ul class="navbar_links" id="mobileMenu">
+        <li><a href="/#home">Inicio</a></li>
+        <li><a href="/#experience">Experiencia</a></li>
+        <li><a href="/#about">Sobre mí</a></li>
+        <li><a href="/#portfolio">Proyectos</a></li>
+        <li><a href="/#education">Educación</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- hero section start -->
+  <header id="home" class="hero scroll-mt-10">
+    <div class="container">
+      <!-- text content -->
+      <div class="hero_content">
+        <h2 class="hero_title">Alexander Cuellar <br /><span class="section_subtitle">Desarrollador web junior</span>
+        </h2>
+        <p class="hero_text">
+          Soy un estudiante de Ingeniería de Sistemas, cuento con mas de 1 año de experiencia como desarrollador web
+          Junior.
+        </p>
+        <div class="hero_links">
+          <a href="https://github.com/Alexander-CuellarN/" target="_blank" data-tooltip-target="tooltip-github">
+            <i class="bi bi-github"></i>
+            <div id="tooltip-github" role="tooltip" class="toltip">
+              Mi Github
+              <div class="tooltip-arrow" data-popper-arrow></div>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in//alexander-cuellar-9b700b163" target="_blank"
+            data-tooltip-target="tooltip-linkedin">
+            <i class="bi bi-linkedin"></i>
+            <div id="tooltip-linkedin" role="tooltip" class="toltip">
+              Mi linkedin
+              <div class="tooltip-arrow" data-popper-arrow></div>
+            </div>
+          </a>
+          <a href="mailto:alexander-gnr2@hotmail.com" target="_blank" data-tooltip-target="tooltip-email">
+            <i class="bi bi-envelope-at-fill"></i>
+            <div id="tooltip-email" role="tooltip" class="toltip">
+              contáctame
+              <div class="tooltip-arrow " data-popper-arrow></div>
+            </div>
+          </a>
+          <a href="./pdf/hoja de vida_Alexander Cuellar.pdf" target="_blank" download="Alexander_Cuellar_Cv"
+            data-tooltip-target="tooltip-cv">
+            <i class="bi bi-file-earmark-arrow-down-fill"></i>
+            <div id="tooltip-cv" role="tooltip" class="toltip">
+              Descargar curriculum
+              <div class="tooltip-arrow" data-popper-arrow></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- avatar -->
+      <div class="hero_avatar">
+        <img src="/images/avatar/profile.webp" alt="Avatar" />
+      </div>
+    </div>
+  </header>
+  <!-- hero section end -->
+
+  <!-- tech stack section start -->
+  <div class="tech-stack">
+    <div class="container">
+      <h2 class="tech-stack_title">Stack Tecnológico</h2>
+      <div class="tech-stack_divider"></div>
+      <div class="tech-stack_content">
+        <div class="tech-stack_item">
+          <img src="/images/tech/html.svg" alt="HTML" class="w-[25px]" data-tooltip-target="tooltip-html" />
+          <div id="tooltip-html" role="tooltip" class="toltip">
+            HTML
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/css.svg" alt="CSS" class="w-[25px]" data-tooltip-target="tooltip-Css" />
+          <div id="tooltip-Css" role="tooltip" class="toltip">
+            CSS
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/javascript.svg" alt="JavaScript" class="w-[25px]" data-tooltip-target="js" />
+          <div id="js" role="tooltip" class="toltip">
+            JavaScript
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/laravel.svg" alt="Laravel" class="w-[25px]" data-tooltip-target="Laravel" />
+          <div id="Laravel" role="tooltip" class="toltip">
+            PHP - Laravel 7
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/dotnet.svg" alt="dotNet" class="w-[25px]" data-tooltip-target="tooltip-dotnet" />
+          <div id="tooltip-dotnet" role="tooltip" class="toltip">
+            c# - .net 7
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/sqlserver.svg" alt="sql" class="w-[25px]" data-tooltip-target="tooltip-sql" />
+          <div id="tooltip-sql" role="tooltip" class="toltip">
+            Sql Server
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+        <div class="tech-stack_item">
+          <img src="/images/tech/angular.svg" alt="angular" class="w-[25px]" data-tooltip-target="tooltip-angular" />
+          <div id="tooltip-angular" role="tooltip" class="toltip">
+            Angular 16
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- tech stack section end -->
+
+  <!-- experience section start -->
+  <div id="experience" class="experience">
+    <div class="container section">
+      <!-- experience text content -->
+      <div class="about_content">
+        <h3 class="section_subtitle mb-1"> Experiencia laboral </h3>
+        <ol class="timelimeContainer ">
+          <li class="timelimeItem">
+            <div></div>
+            <h3>Desarrollador Web</h3>
+            <p>Toro Digital - Bogotá D.C </p>
+            <time>mayo de 2023 - Diciembre de 2023</time>
+            <p> Estuve a cargo del diseño de una variedad de páginas web para la empresa, utilizando un stack
+              tecnológico que incluye PHP - Laravel 7, Node.js, MySQL y MongoDB para el backend, y Angular 16 y React
+              para el frontend. Me dediqué a garantizar que cada sitio web funcionara a su máximo rendimiento,
+              proporcionando soporte técnico integral y resolviendo cualquier problema que surgiera.</p>
+          </li>
+          <li class="timelimeItem">
+            <div></div>
+            <h3>Desarrollador Junior</h3>
+            <p>Its Soluciones- Bogotá D.C.</p>
+            <time>Diciembre de 2016 - Diciembre de 2018</time>
+            <p> Trabajé en estrecha colaboración con los clientes de la empresa, interpretando sus necesidades y
+              plasmándolas en requerimientos funcionales para los diferentes módulos del aplicativo web. Utilicé un
+              stack tecnológico que incluye PHP 8, SQL Server y MySQL para el backend, y HTML, CSS y JavaScript para el
+              frontend. Desarrollé módulos que agilizaron significativamente los procesos. Además, proporcioné soporte
+              técnico para resolver cualquier incidencia, asegurando así el correcto funcionamiento de los diferentes
+              módulos del sistema.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!-- experience section end -->
+
+  <!-- about section start -->
+  <div id="about" class="about">
+    <div class="container section">
+      <!-- about image -->
+      <div class="about_img">
+        <img src="/images/about.webp" alt="About Me" />
+      </div>
+      <!-- about text content -->
+      <div class="about_content">
+        <h3 class="section_subtitle mb-1">Sobre mí</h3>
+        <p class="about_text mb-2">
+          “Soy un estudiante de <strong class="strongText">Ingeniería de Sistemas</strong> y cuento con más de 1 año de
+          experiencia como <strong class="strongText">Desarrollador
+            Junior.</strong> </p>
+        <p class="about_text mb-2">
+          Mis habilidades incluyen lenguajes de programación del lado del servidor como <strong
+            class="strongText">PHP</strong> y <strong class="strongText">.NET</strong>, así como
+          tecnologías del lado del cliente como <strong class="strongText">CSS</strong>, <strong
+            class="strongText">HTML5</strong>, <strong class="strongText">JavaScript</strong> y <strong
+            class="strongText">Angular</strong>. Además, tengo un sólido manejo de
+          bases de datos relacionales como <strong class="strongText">SQL Server</strong> y <strong
+            class="strongText">MySQL</strong>.
+        </p>
+        <p class="about_text">
+          <strong class="strongText">Mi objetivo</strong> es contribuir significativamente a cualquier
+          equipo de desarrollo de software, siempre listo para nuevos desafíos y oportunidades. ¡Vamos a por ello!”
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- about section end -->
+
+  <!-- portfolio section start -->
+  <div id="portfolio" class="portfolio">
+    <div class="container section">
+      <h3 class="section_subtitle mb-1">Proyectos</h3>
+      <h2 class="section_title mb-16">
+        Proyectos personales
+      </h2>
+
+      <div class="portfolio_cards">
+
+        <div class="portfolio_card">
+          <div class="portfolio_card_media">
+            <img src="/images/project/recetas.webp" alt="Recetas" />
+          </div>
+          <div class="portfolio_card_body">
+            <div class="portfolio_card_tags">
+              <span>#Angular</span>
+              <span>#.Net</span>
+              <span>#Sql Server</span>
+            </div>
+            <h2 class="portfolio_card_title">Inventario</h2>
+            <p class="portfolio_card_text">
+              Sistema interactivo de recetas de cocina. espacio donde los amantes de la cocina pueden compartir y
+              descubrir de nuevas recetas. Con una comunidad de usuarios registrados. ademas permite seleccionar y
+              filtrar recetas favoritas para un acceso rápido.
+            </p>
+
+            <div class="portfolio_card_links">
+              <a href="https://github.com/Alexander-CuellarN/RecipesApi" target="_blank" class="portfolio_card_link">
+                Codigo fuente API
+                <i class="bi bi-code"></i>
+              </a>
+              <a href="https://socialmediarecipesapi.somee.com/swagger/index.html" target="_blank"
+                class="portfolio_card_link primary">Preview API <i class="bi bi-eye"></i>
+              </a>
+              <a href="https://github.com/Alexander-CuellarN/RecipesApi_FrontEnd" target="_blank"
+                class="portfolio_card_link">
+                Codigo fuente FrontEnd
+                <i class="bi bi-code"></i>
+              </a>
+              <a href="https://recetasapiacuellarn.netlify.app/" target="_blank"
+                class="portfolio_card_link primary">Preview <i class="bi bi-eye"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio_card">
+          <div class="portfolio_card_media">
+            <img src="/images/project/chat.webp" alt="Chat" />
+          </div>
+          <div class="portfolio_card_body">
+            <div class="portfolio_card_tags">
+              <span>#SingnalR</span>
+              <span>#.Net</span>
+              <span>#Sql Server</span>
+              <span>#Javascript</span>
+            </div>
+            <h2 class="portfolio_card_title">Salas de chat</h2>
+            <p class="portfolio_card_text">
+              Sistema de chat en tiempo real. Este sistema te permite crear salas de chat y conectar con cualquier
+              personas. Ya sea que quieras iniciar una conversación o unirte a una. Conéctate a cualquier sala que te
+              interese y empieza a hablar con personas en tiempo real.
+            </p>
+
+            <div class="portfolio_card_links">
+              <a href="https://github.com/Alexander-CuellarN/ChatNet" target="_blank" class="portfolio_card_link">
+                Codigo fuente
+                <i class="bi bi-code"></i>
+              </a>
+              <a href="https://chatnet.somee.com/" target="_blank" class="portfolio_card_link primary">Preview <i
+                  class="bi bi-eye"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio_card">
+          <div class="portfolio_card_media">
+            <img src="/images/project/pedidos.webp" alt="pedidos" />
+          </div>
+          <div class="portfolio_card_body">
+            <div class="portfolio_card_tags">
+              <span>#html</span>
+              <span>#Javascript</span>
+              <span>#.Net</span>
+              <span>#Sql Server</span>
+            </div>
+            <h2 class="portfolio_card_title">Inventario</h2>
+            <p class="portfolio_card_text">
+              Sistema integrado compacto para la gestión de inventario y pedidos, diseñado para optimizar y simplificar
+              operaciones. Llevar un seguimiento preciso de un inventario y gestionar los pedidos. Con su interfaz
+              intuitiva y fácil de usar.
+            </p>
+
+            <div class="portfolio_card_links">
+              <a href="https://github.com/Alexander-CuellarN/Crud_DetalleMaestro" target="_blank"
+                class="portfolio_card_link">
+                Codigo fuente
+                <i class="bi bi-code"></i>
+              </a>
+              <a href="https://www.crudpedidosacuellar.somee.com/" target="_blank"
+                class="portfolio_card_link primary">Preview <i class="bi bi-eye"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- portfolio section end -->
+  <!-- Education section start -->
+  <div id="education" class="experience">
+    <div class="container section">
+      <!-- experience text content -->
+      <div class="about_content">
+        <h3 class="section_subtitle mb-1"> Educación </h3>
+        <ol class="timelimeContainer ">
+          <li class="timelimeItem">
+            <div></div>
+            <h3>Ingenieria de sistemas.</h3>
+            <time>Febrero de 2018 - Cursando actualmente</time>
+            <p> Universidad Nacional Abierta y a Distancia - UNAD, Bogotá D.C.</p>
+          </li>
+          <li class="timelimeItem">
+            <div></div>
+            <h3>Programa de formación general (ciclo 1, 2, 3 y 4a) en
+              habilidades de programación de misión tic 2022 con
+              profundización en desarrollo de aplicaciones web.</h3>
+            <time>mayo de 2021 - Diciembre de 2021</time>
+            <p> Universidad Nacional de Colombia - UN, Bogotá D.C.</p>
+          </li>
+          <li class="timelimeItem">
+            <div></div>
+            <h3>Tecnólogo en Análisis y Desarrollo de sistemas de la información.</h3>
+            <time>Agosto 2015 - Diciembre de 2017</time>
+            <p>Servicio Nacional de Aprendizaje - SENA, Bogotá D.C.</p>
+          </li>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!-- experience section end -->
+
+
+  <!-- footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_links">
+        <a href="https://github.com/Alexander-CuellarN/" target="_blank" data-tooltip-target="tooltip-github">
+          <i class="bi bi-github"></i>
+          <div id="tooltip-github" role="tooltip" class="toltip">
+            Mi Github
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </a>
+
+        <a href="https://linkedin.com/in//alexander-cuellar-9b700b163" target="_blank"
+          data-tooltip-target="tooltip-linkedin">
+          <i class="bi bi-linkedin"></i>
+          <div id="tooltip-linkedin" role="tooltip" class="toltip">
+            Mi linkedin
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </a>
+        <a href="mailto:alexander-gnr2@hotmail.com" target="_blank" data-tooltip-target="tooltip-email">
+          <i class="bi bi-envelope-at-fill"></i>
+          <div id="tooltip-email" role="tooltip" class="toltip">
+            contáctame
+            <div class="tooltip-arrow " data-popper-arrow></div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in//alexander-cuellar-9b700b163" target="_blank" data-tooltip-target="tooltip-cv">
+          <i class="bi bi-file-earmark-arrow-down-fill"></i>
+          <div id="tooltip-cv" role="tooltip" class="toltip">
+            Descargar curriculum
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+</body>
+
+</html>

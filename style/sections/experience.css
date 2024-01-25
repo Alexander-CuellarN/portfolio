@@ -1,0 +1,23 @@
+.timelimeContainer {
+    @apply relative border-s border-gray-200 dark:border-gray-700
+}
+
+.timelimeItem {
+    @apply mb-10 ms-4
+}
+
+.timelimeItem>div {
+    @apply absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-blue-900 dark:bg-blue-700
+}
+
+.timelimeItem>time {
+    @apply mb-4 text-base font-normal leading-none text-blue-700
+}
+
+.timelimeItem>h3 {
+    @apply text-lg font-semibold text-neutral-800
+}
+
+.timelimeItem>p {
+    @apply mt-2 text-base font-normal text-neutral-700
+}
